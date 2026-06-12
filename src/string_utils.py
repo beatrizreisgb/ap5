@@ -4,7 +4,7 @@ def reverse_string(text: str) -> str:
     """Reverses the given string."""
     if not isinstance(text, str):
         raise TypeError("Input must be a string")
-    return text[::-1]
+    return ""
 
 def is_palindrome(text: str) -> bool:
     """Checks if a string reads the same backward as forward, ignoring spaces and capitalization."""
